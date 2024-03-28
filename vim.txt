@@ -1,9 +1,8 @@
-Hola Mundo!
-Commit: Actualización del archivo vim.txt
+Commit: 
 
 Aquí tienes una lista básica de comandos de Vim para comenzar, clasificados por su uso general:
 
-### Modos
+Modos
 - `i`: Entra al modo de inserción antes del carácter actual.
 - `I`: Entra al modo de inserción al principio de la línea.
 - `a`: Entra al modo de inserción después del carácter actual.
@@ -12,7 +11,7 @@ Aquí tienes una lista básica de comandos de Vim para comenzar, clasificados po
 - `V`: Entra al modo visual por líneas.
 - `esc`: Regresa al modo normal desde cualquier otro modo.
 
-### Navegación
+Navegación
 - `h`: Moverse una posición a la izquierda.
 - `j`: Moverse una posición hacia abajo.
 - `k`: Moverse una posición hacia arriba.
@@ -24,7 +23,7 @@ Aquí tienes una lista básica de comandos de Vim para comenzar, clasificados po
 - `gg`: Ir a la primera línea del documento.
 - `:{número}`: Ir a la línea número `{número}`.
 
-### Edición
+Edición
 - `x`: Cortar (eliminar) el carácter bajo el cursor.
 - `r`: Reemplazar el carácter bajo el cursor.
 - `dd`: Cortar (eliminar) la línea completa.
@@ -33,14 +32,14 @@ Aquí tienes una lista básica de comandos de Vim para comenzar, clasificados po
 - `u`: Deshacer el último cambio.
 - `Ctrl + r`: Rehacer el último cambio deshecho.
 
-### Búsqueda y reemplazo
+Búsqueda y reemplazo
 - `/{palabra}`: Buscar `{palabra}` hacia adelante.
 - `?{palabra}`: Buscar `{palabra}` hacia atrás.
 - `n`: Repetir la última búsqueda hacia adelante.
 - `N`: Repetir la última búsqueda hacia atrás.
 - `:%s/{original}/{nuevo}/g`: Reemplazar todas las ocurrencias de `{original}` con `{nuevo}` en todo el archivo.
 
-### Guardar y salir
+Guardar y salir
 - `:w`: Guardar el archivo.
 - `:q`: Salir de Vim (debe cerrar todos los archivos para salir).
 - `:wq` o `:x`: Guardar y salir.
