@@ -1,4 +1,5 @@
-Hola Mundo. Actualización del archivo vim.txt
+Hola Mundo!
+Commit: Actualización del archivo vim.txt
 
 Aquí tienes una lista básica de comandos de Vim para comenzar, clasificados por su uso general:
 
