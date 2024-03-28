@@ -1,0 +1,8 @@
+  
+Hola Mundo!
+Este es una guía de comandos del editor de texto VIM.
+"i",   iniciar insercion.
+":w",  written, guardar texto.
+":q!", quite, salir sin guardar.
+":wq", guardar y escribir.
+ 
