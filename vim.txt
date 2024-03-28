@@ -1,8 +1,49 @@
-  
-Hola Mundo!
-Este es una guía de comandos del editor de texto VIM.
-"i",   iniciar insercion.
-":w",  written, guardar texto.
-":q!", quite, salir sin guardar.
-":wq", guardar y escribir.
- 
+Hola Mundo. Actualización del archivo vim.txt
+
+Aquí tienes una lista básica de comandos de Vim para comenzar, clasificados por su uso general:
+
+### Modos
+- `i`: Entra al modo de inserción antes del carácter actual.
+- `I`: Entra al modo de inserción al principio de la línea.
+- `a`: Entra al modo de inserción después del carácter actual.
+- `A`: Entra al modo de inserción al final de la línea.
+- `v`: Entra al modo visual para seleccionar texto.
+- `V`: Entra al modo visual por líneas.
+- `esc`: Regresa al modo normal desde cualquier otro modo.
+
+### Navegación
+- `h`: Moverse una posición a la izquierda.
+- `j`: Moverse una posición hacia abajo.
+- `k`: Moverse una posición hacia arriba.
+- `l`: Moverse una posición a la derecha.
+- `0`: Ir al inicio de la línea.
+- `^`: Ir al primer carácter no blanco de la línea.
+- `$`: Ir al final de la línea.
+- `G`: Ir a la última línea del documento.
+- `gg`: Ir a la primera línea del documento.
+- `:{número}`: Ir a la línea número `{número}`.
+
+### Edición
+- `x`: Cortar (eliminar) el carácter bajo el cursor.
+- `r`: Reemplazar el carácter bajo el cursor.
+- `dd`: Cortar (eliminar) la línea completa.
+- `yy`: Copiar la línea completa.
+- `p`: Pegar el texto copiado o cortado después del cursor.
+- `u`: Deshacer el último cambio.
+- `Ctrl + r`: Rehacer el último cambio deshecho.
+
+### Búsqueda y reemplazo
+- `/{palabra}`: Buscar `{palabra}` hacia adelante.
+- `?{palabra}`: Buscar `{palabra}` hacia atrás.
+- `n`: Repetir la última búsqueda hacia adelante.
+- `N`: Repetir la última búsqueda hacia atrás.
+- `:%s/{original}/{nuevo}/g`: Reemplazar todas las ocurrencias de `{original}` con `{nuevo}` en todo el archivo.
+
+### Guardar y salir
+- `:w`: Guardar el archivo.
+- `:q`: Salir de Vim (debe cerrar todos los archivos para salir).
+- `:wq` o `:x`: Guardar y salir.
+- `:q!`: Salir sin guardar cambios.
+- `ZZ`: Guardar y salir (equivalente a `:x`).
+
+Estos son solo los comandos básicos para comenzar a usar Vim. Vim es extremadamente poderoso y configurable, con muchos más comandos y características disponibles para explorar a medida que te familiarices con el editor.
